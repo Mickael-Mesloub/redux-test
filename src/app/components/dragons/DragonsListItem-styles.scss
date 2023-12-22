@@ -1,0 +1,25 @@
+.dragon-name {
+  display: inline-block;
+  color: rgb(221, 206, 234);
+  font-weight: 600;
+  font-size: 2rem;
+  background-color: #272626;
+  width: 20rem;
+  border: none;
+
+  &:focus,
+  &:active {
+    box-shadow: 2px 2px 8px rgba(206, 162, 247, 0.688);
+    border: 0.5px solid rgba(206, 162, 247, 0.688);
+  }
+}
+
+.delete-icon {
+  display: inline-block;
+  padding: 0.5rem;
+  color: red;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
